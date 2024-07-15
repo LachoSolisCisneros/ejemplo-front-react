@@ -1,0 +1,49 @@
+/* Estilo general */
+.inicio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Contenedor de la tabla */
+  .table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  /* Tabla */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Filas alternadas */
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #e9e9e9;
+  }
+  
+  /* Estilos responsivos */
+  @media only screen and (max-width: 600px) {
+    .user-table th, .user-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
